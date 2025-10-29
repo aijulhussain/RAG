@@ -8,3 +8,7 @@ langgraph
 tavily-python 
 bs4
 faiss-cpu
+langchain-tavily
+langchain-huggingface
+langchain-groq
+sentence-transformers

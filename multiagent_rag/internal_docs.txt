@@ -1,0 +1,57 @@
+Transformer Architecture — Overview
+
+The Transformer is a deep learning architecture introduced by Vaswani et al. in 2017 in the paper “Attention Is All You Need.”
+It revolutionized natural language processing (NLP) by replacing recurrent structures (like RNNs and LSTMs) with a mechanism called self-attention, enabling models to process sequences in parallel and capture long-range dependencies efficiently.
+
+Key Components
+
+Encoder–Decoder Structure
+
+Encoder: Processes the input sequence and converts it into a contextualized representation.
+
+Decoder: Uses these representations to generate the output sequence (e.g., in translation tasks).
+
+Self-Attention Mechanism
+
+Allows each token to “attend” to other tokens in the sequence.
+
+Helps the model understand relationships between words regardless of their distance.
+
+Multi-Head Attention
+
+Multiple attention heads capture different aspects of the word relationships simultaneously.
+
+Positional Encoding
+
+Since Transformers do not use recurrence, positional encodings are added to input embeddings to preserve the order of tokens.
+
+Feed-Forward Network (FFN)
+
+After attention, each token’s representation is passed through a small neural network to enhance feature learning.
+
+Residual Connections & Layer Normalization
+
+Improve gradient flow and model stability during training.
+
+Advantages
+
+Parallel processing → faster training
+
+Better long-term dependency handling
+
+Scalable and adaptable → forms the base of models like BERT, GPT, T5, etc.
+
+Applications
+
+Machine Translation
+
+Text Summarization
+
+Sentiment Analysis
+
+Question Answering
+
+Image Captioning and Vision Transformers (ViT)
+
+In short:
+The Transformer is a highly efficient sequence model based on attention mechanisms that has become the foundation of modern AI models in NLP, vision, and multimodal learning
